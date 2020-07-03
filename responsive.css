@@ -87,12 +87,16 @@
         font-size: 25px;
     }
     
-    .menu{
+    .logo {
+        height: 50%;
+    }
+    
+    .menu {
         display: none;
     }
     
     .menu-icon {
-    display: block;
+        display: block;
     }
     
     .content-hero p{

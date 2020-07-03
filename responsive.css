@@ -1,0 +1,108 @@
+/* Media Querie max-width 1050px */
+
+@media(max-width: 1050px){
+    .container{
+        width: 90%;
+    }
+    .section-services{
+        height: auto;
+        margin-bottom: 30px;
+    }
+
+    .box-content{
+        margin-top: 20px;
+    }
+
+    .section-portfolio{
+        height: 530px;
+        padding-top: 40px;
+    }
+    .area-title{
+        margin-bottom: 0px;
+    }
+
+    .link{
+        margin-top: 20px;
+    }
+    .section-ourteams{
+        height: 950px;
+    }
+
+    .profil{
+        margin-top: 60px;
+    }
+
+}
+
+/* Media Querie max-width 900px */
+@media (max-width: 960px){
+    
+    .menu{
+        display: none;
+    }
+
+    .bars{
+        display: block;
+    }
+
+    .content-hero h1{
+        font-size: 35px;
+        font-weight: 700;
+        width: 30rem;
+        text-align: center;
+    }
+    
+    .content-hero p{
+        font-size: 18px;
+        font-weight: normal;
+        width: 40rem;
+        text-align: center;
+        color: #eee;
+    }
+
+    .section-portfolio{
+        height: 880px;
+        padding-top: 40px;
+    }
+
+    .content-portfolio{
+     flex-direction: column;
+     align-items: center;
+    }
+
+    .portfolio-img{
+        width: 100%;
+    }
+
+    .portfolio-title{
+        margin-top: 30px;
+        width: 100%;
+        margin-left: 0px;
+    }   
+}
+
+/* Media Querie max-width 768px */
+@media (max-width: 768px){
+    .content-hero h1{
+        font-size: 25px;
+    }
+    
+    .content-hero p{
+        font-size: 15px;
+        font-weight: normal;
+        width: 35rem;
+        text-align: center;
+        color: #eee;
+    }
+
+    .box-content{
+        width: 100%;
+    }
+    .section-ourteams{
+        height: 1300px;
+    }
+
+    .section-portfolio{
+        height: 950px;
+    }
+}

@@ -87,6 +87,10 @@
         font-size: 25px;
     }
     
+    .menu{
+        display: none;
+    }
+    
     .menu-icon {
     display: block;
     }

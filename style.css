@@ -1,0 +1,463 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #0a0a0a;
+}
+
+.container{
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+
+/* ---------------------------- Header  ----------------------------*/
+
+/* Nav */
+
+nav{
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 99;
+    background-color: rgba(0,0,0,.06);
+}
+
+.logo {
+    margin-left: 50px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+.menu li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #fff;
+    font-weight: normal;
+}
+
+.menu li a:hover{
+    color: #000000;
+}
+
+
+.bars{
+    display: none;
+    margin-right: 30px;
+    width: 40px;
+    height: 40px;
+}
+
+.bar{
+    width: 100%;
+    height: 4px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 7px;
+}
+/* End Nav */
+
+/* Jumbotron */
+.jumbotron-hero{
+    width: 100%;
+    height: 100vh;
+    background-image: url(bg2.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.cover-hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,.6);
+}
+
+
+.content-hero{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+.content-hero h1{
+    font-size: 40px;
+    font-weight: 700;
+    width: 30rem;
+    text-align: center;
+}
+
+.content-hero p{
+    font-size: 18px;
+    font-weight: normal;
+    width: 50rem;
+    text-align: center;
+    color: #eee;
+}
+
+.btn-hero{
+    margin-top: 20px;
+}
+
+.btn{
+    padding: 7px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.transparent{
+    background: transparent;
+    border: 2px solid #fff;
+}
+
+.bg-blue{
+    background-color: #000000;
+    border: 2px solid #000000;
+}
+
+.bg-blue i{
+    margin-left: 5px;
+}
+
+.bg-blue:hover{
+    background-color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.transparent:hover{
+    background-color: white;
+    color: #3871FF;
+}
+
+.mouse-animation{
+    position: absolute;
+    bottom: 20px;
+    width: 30px;
+    left: 49%;
+    height: 50px;
+    border-radius: 100%;
+    animation: pulse 2s infinite;
+}
+
+.mouse-animation a img{
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(240, 240, 240, 0.99);
+    }
+
+    70% {
+        box-shadow: 0 0 0 1rem rgba(238, 238, 238, 0);
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 rgba(255, 247, 251, 0);
+    }
+}
+
+/* End Jumbotron */
+
+
+/* ---------------------------- End Header ----------------------------*/
+
+
+/* ---------------------------- Main  ----------------------------*/
+
+
+/* Services */
+.section-services{
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+.content-services{
+    margin: 40px 0;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+.content-services h1{
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.content-services h1 span{
+    color: #ffffff;
+}
+
+.content-services p{
+    font-size: 18px;
+    width: 35rem;
+    margin:  0 auto;
+    font-weight: 400;
+    color: #eee;
+}
+
+.box-services{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.box-content{
+    width: 350px;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    padding: 30px;
+}
+
+.title-box{
+    margin-top: 20px;
+}
+
+.title-box h3{
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #222;
+}
+
+.title-box p {
+    font-weight: 400;
+    font-size: 18px;
+    color: #444;
+}
+
+.icon-img{
+    text-align: center;
+}
+
+/* End Services */
+
+/* Portfolio */
+.section-portfolio{
+    width: 100%;
+    background-color: #000000;
+    height: 600px;
+    padding: 100px 0;
+}
+
+.content-portfolio{
+    width: 100%;
+    display: flex;
+}
+
+.portfolio-img{
+    width: 700px;
+    height: 455px;
+    border: 10px solid #fff;
+    border-radius: 5px;
+}
+
+.portfolio-img img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.portfolio-title{
+    width: 60%;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.area-title{
+    margin-bottom: 50px;
+}
+
+.area-title h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.area-title span{
+    color: #0E263A;
+}
+
+.area-description p{
+    margin-top: 10px;
+    color: #eee;
+}
+
+.link{
+    margin-top: 50px;
+    font-size: 25px;
+    color: #0E263A;
+    text-decoration: none;
+    width: 100px;
+}
+
+.link i{
+    font-size: 20px;
+}
+
+.link:hover{
+    color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+/* End Portfolio */
+
+
+/* Our Teams */
+
+.section-ourteams{
+    width: 100%;
+    height: 570px;
+    background-color: rgb(214, 135, 8);
+}
+
+
+.content-ourteams{
+    padding: 40px 0 20px 0;
+    width: 100%;
+    text-align: center;
+    color: #222;
+}
+
+.content-ourteams h1{
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.content-ourteams h1 span{
+    color: #ffffff;
+}
+
+.content-ourteams p{
+    font-size: 18px;
+    width: 35rem;
+    margin:  0 auto;
+    font-weight: 400;
+    color: #444;
+}
+
+.box-profils{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.profil{
+    width: 230px;
+    height: 300px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.profil img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content-profil{
+    position: absolute;
+    margin-top: -100px;
+    background-color: rgba(240, 240, 240, 0.7);
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    padding: 10px;
+}
+
+.content-profil p{
+    color: #000000;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.data-profil p{
+    font-size: 17px;
+    color: #0E263A;
+    font-weight: 400;
+}
+
+.data-profil p:last-child{
+    font-size: 14px;
+    color: #0E263A;
+}
+
+/* End Our Teams */
+
+/* ---------------------------- End Main ----------------------------*/
+
+/* ---------------------------- Footer  ----------------------------*/
+footer{
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+}
+
+footer p{
+    color: #fff;
+}
+
+.iconup{
+    position: absolute;
+    right: 50px;
+    top: -30px;
+    padding: 10px 17px;
+    background-color: #0E263A;
+    border-radius: 100%;
+    border: 3px solid #fff;
+    animation: totop 2s infinite;
+}
+
+.iconup i {
+    font-size: 22px;
+    color: #fff;
+}
+
+@keyframes totop {
+    0% {
+        box-shadow: 0 0 0 0 rgba(240, 240, 240, 0.99);
+    }
+
+    70% {
+        box-shadow: 0 0 0 1rem rgba(238, 238, 238, 0);
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 rgba(255, 247, 251, 0);
+    }
+}
+
+/* ---------------------------- End Footer ----------------------------*/

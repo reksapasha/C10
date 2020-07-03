@@ -1,6 +1,6 @@
-/* Media Querie max-width 1050px */
+/* Media Querie max-width 1000px */
 
-@media(max-width: 1050px){
+@media(max-width: 1000px){
   .container{
       width: 90%;
   }
@@ -34,8 +34,8 @@
 
 }
 
-/* Media Querie max-width 900px */
-@media (max-width: 960px){
+/* Media Querie max-width 670px */
+@media (max-width: 670px){
   
   .menu{
       display: none;
@@ -46,7 +46,7 @@
   }
 
   .content-hero h1{
-      font-size: 35px;
+      font-size: 25px;
       font-weight: 700;
       width: 30rem;
       text-align: center;
@@ -78,31 +78,12 @@
       margin-top: 30px;
       width: 100%;
       margin-left: 0px;
-  }   
-}
-
-/* Media Querie max-width 768px */
-@media (max-width: 768px){
-  .content-hero h1{
-      font-size: 25px;
-  }
-  
-  .content-hero p{
-      font-size: 15px;
-      font-weight: normal;
-      width: 35rem;
-      text-align: center;
-      color: #eee;
-  }
+  } 
 
   .box-content{
       width: 100%;
   }
   .section-ourteams{
-      height: 1300px;
-  }
-
-  .section-portfolio{
-      height: 950px;
+      height: 2000px;
   }
 }

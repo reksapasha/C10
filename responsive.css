@@ -41,8 +41,8 @@
         display: none;
     }
 
-    .bars{
-        display: block;
+    .menu-icon {
+    display: block;
     }
 
     .content-hero h1{
@@ -85,6 +85,10 @@
 @media (max-width: 768px){
     .content-hero h1{
         font-size: 25px;
+    }
+    
+    .menu-icon {
+    display: block;
     }
     
     .content-hero p{
